@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+
+<html >
+ 	<!--The <html> element is the document root. It is the recommended place for displaying the page language-->
+<!-- Learned that this is how I can leave notes to myself by looking at Andy's Codepen page. -->
+<!-- The <head> element displays information that will not be seen on the actual page. It contains meta data (data about data).-->
+<!--Meta data typically define document title, styles, links, scripts and other meta information -->
+<head>
+<link rel="stylesheet" type="text/css" href="firststyle.css">
+
+ <!-- The <title> element normally sets the name of the browser tab but (when you work in Codepen, Codepen's title overrides that -->
+ <title>Frank's Notes</title>
+
+</head>
+<!-- The <h1> tag means "heading 1" Heading tags can go up to <h6>. Lower number heading tags indicate page headings that are more important.--> 
+<!-- <div> tags create blocks, i.e. structure to other elements with in the document. <span> tags are used for inline changes-->
+<body>
+
+<img class="code" src="code.jpg" alt="Ooops" width="500" height="250">
+	<div id="left">
+		<b>   </b>
+	</div>
+	<div id="right">
+		<b>    </b>
+	</div>
+		
+		<h1><span class="under">NOTES ON IMPORTANT CONCEPTS</span></h1>
+			<div class="lesson">
+				<h2>Lesson 1: Introduction to the Web and HTML
+				</h2>
+				<div class="concept"> 
+					<div class="concept-title">
+						<b>The World Wide Web</b>
+					</div>
+						<div class="concept-description">
+							<p>The World Wide Web was created in the 1990's. It is host to approximately 30 billion web pages!
+							The World Wide Web works by users accessing web pages through at browser. The browsers make requests and retrieves page data from web servers via HTTP "Hypertext Transfer Protocol." 
+							Servers are computers that store the data on the "backend." What the user sees via the browser is called the "frontend."
+							<a href="https://www.youtube.com/watch?v=J8hzJxb0rpc">This video</a> explains in detail how the World Wide Web works.
+							</p>
+						</div>
+		
+<!--The <a href> tag above is an example of how to embed a hyperlink into the text <u> tag underlines the heading.<-->
+		
+					<div class="concept-title">
+						<b>HTML</b>
+					</div>
+						<div class="concept-description">
+							<p>
+						 	HTML - <span class="italic">hypertext markup language</span>
+						 	<br>HTML was created by Tim Berners-Lee in 1989. This is the language used to write most webpages and is used in conjunction with CSS and JavaScript. 
+						 	HTML is used to display the text of most webpages it is also good at linking images and other webpages. HTML uses tags or elements.  
+							</p>
+						</div>
+					<div class="concept-title">
+						<b>Tags and Elements</b>
+					</div>
+						<div class="concept-description">
+							<p>HTML Markup uses tags to display hypertext on the web page the following are some examples of tags.</p>	
+							<ul>
+  							<li>"br"--"/br" Allows the user to create a break to move text to the next line.</li>
+  							<li>"p"--"/p" A new paragraph is started</li>
+  							<li>"em"--"/em" Italics text</li>
+  							<li>"b"--"/b" To bold text</li>
+							</ul>	
+							<p>	<span class="italic">It is important to note that each tag is within angle brackets instead of quotes.</span>
+							</p>
+							<p> A visual example of how tags work can be found 
+							<a href="https://www.youtube.com/watch?t=21&amp;v=VsxbuJWcxqA">here</a>
+							</p>
+						</div>
+					<div class="concept-title">
+						<b>Inline vs. Block</b>
+					</div>
+						<div class="concept-description">
+							<p>Block elements create an invisble box within the tags. An example of a block element would be the "p" "/p" tags.
+  							<br>Inline elements such as the "br""/br" tag simply wrap text to the next line. 
+							</p>
+						</div>
+					<div class="concept-title">
+						<b>Computers And Programming</b>
+					</div>
+						<div class="concept-description">
+							<p>Computers are unable to execute any task on their own.  They rely on the user to input instructions before any task can be executed.	
+							<br> For this reason, computers are very unforgiving if the instructions, i.e. the code is not clear and exact. Bad code can result in many hours of problem solving. 
+							</p>
+							<p>Coding happens when programmers write text in a language that a computer can understand.  The computer can then follow the instructions the programmer writes.
+							</p>
+						</div>
+				</div>
+					<h2>Lesson 2: Structure and Styles of HTML</h2>
+				<div class="concept">
+					<div class="concept-title">
+						<b>How To Use Developer Tools In The Browser</b>
+					</div>
+						<div class="concept-description">
+							<p>All browsers have some form of Developer Tools. To access Dev Tools in Google Chrome select the 
+							<b>Chrome Menu</b> then 
+							<b>Tools</b> > 
+							<b>Developer Tools</b>
+							The display for Developer Tools is sectioned into 3 boxes: the webpage display, the element box and the style box. 
+							Various elements and styles can be manipulated through Developer Tools. Developer Tools is important for coders to view how other programmers have addressed coding problems and projects.  
+							</p>
+						</div>
+					<div class="concept-title">
+						<b>Boxes and Tree Structure</b>
+					</div>
+						<div class="concept-description">
+							<p>Webpages are comprised of boxes. What appears to be a fluid and visual appealing to the user, is nothing more than a page of boxes containing the elements and styles of the visual context. 
+					 		These boxes are formed into a tree structure see 
+							<a href="http://en.wikipedia.org/wiki/Tree_structure"> this wikipedia page for more context</a>
+							</p>
+						</div>
+					<div class="concept-title">
+						<b>The Importance of the "div" Tag</b>
+					</div>
+						<div class="concept-description">
+							<p>The "div" tag is one of the most important elements to keep the boxes (or sections) of HTML organized this will also allow for the later use of CSS to give the blocks some style.  
+							</p>
+						</div>	
+					<div class="concept-title">
+						<b>The Text Editor</b>
+					</div>
+						<div class="concept-description">
+							<p>The text editor is to a programmer, what a hammer is to a carpenter. It is the number one tool of the trade. That's why it's important to find a good fit. 	
+							Sublime Text 3 is what I'm currently using to create this page. 
+							<a href="http://www.sublimetext.com/3">Sublime</a> is one of the most powerful text editors because it can be tweaked to accommodate different coding languages. Sublime also contains various tools to assist in debugging code.
+							</p>
+						</div>
+				</div>
+					<h2>Lesson 3 Understanding Styles</h2>
+				<div class="concept">
+					<div class="concept-title">
+						<b>Styles Upon Styles</b>
+					</div>
+						<div class="concept-description">
+							<p>HTML structure and syntax is important to build the framework for the project. However, knowing how to style and document with CSS is what allows the coder to create dynamic and eye catching webpages.  An analogy would be that HTML is the structure of a house, while CSS is the paint and décor that gives the house a distinct look.  This is why coding is sometimes referred to in an artistic sense.  Some of the things CSS allows the programmer to are:</p>
+							<ul>
+								<li>Add Color</li>
+								<li>Manipulate Various Fonts with Typface, Line Height, and Size</li>
+								<li>Move paragraphs images and text into proper position</li>	
+								<li>Build Margins and Borders</li>
+							</ul>
+						</div>
+					<div class="concept-title">
+						<b>What Is CSS?</b>	
+					</div>
+						<div class="concept-description">
+							<p>CSS stands for Cascading Style Sheet. Cascading allows various styles to flow through the document.</p>
+							<ul> 
+								<li>Author Stylesheets Have Priority</li>
+								<li>Reader Stylesheets Follow</li> 
+								<li>Then the Web Browsers Default Style</li>
+							</ul>
+							<p> CSS also allows for separation between the structure and the presentation. This separation is critical because it allows the programmer to avoid repetion in the documents structural content. 
+						</div>
+					<div class="concept-title">
+						<b>Inherited Styles</b>
+					</div>
+						<div class="concept-description">
+							<p>CSS allows for a parent element/child element relationship. Where the child may inherit some of the style attributes from the parent.  However, it is also possible for the child elements own assigned attributes to take precedence over any inherited attributes.  These attributes are usually created using the “class” and “id” selectors. </p>
+							<p>“Class” selectors can be used for assigning elements the same value within a document. “Id” selectors are used for one specific element and that element only.
+							</p>
+						</div>
+					<div class="concept-title">
+						<b>Further Notes and Resources</b>
+					</div>
+						<div class="concept-description">
+							<p>
+							<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS">This</a> website is helpful for a further understanding of CSS style.
+							</p>
+							<p><span class="italic">The importance of notes within HTML and CSS cannot be stressed enough it is via these notes that a coder can refer back to when working on future projects. </span>
+							</p>
+					</div>
+				</div>
+			</div>
+</body>
+</html>

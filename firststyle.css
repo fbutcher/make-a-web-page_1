@@ -1,0 +1,64 @@
+/*This is my first stylesheet the first thing I'm doing is giving my html some background color. Then I want to center the image and my headers. */
+
+body {
+
+		background-color: #77BA9B;
+		font-family: "Arial Black", Gadget, sans-serif;
+	}
+
+IMG.code {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+#left, #right {
+	background: #a5ebff;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 300px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+
+h1 {
+	text-align: center;
+	color: #3B5998;
+}
+h2{
+	text-align: left;
+	margin-left: 400px;
+	color: #3B5998;
+}
+
+ul{text-indent: .50cm;
+
+}
+
+.italic{font-style: italic;
+}
+
+.under{text-decoration: underline;
+}
+	
+.concept {
+	background: #3B5998;
+	
+}
+
+
+.concept-title {
+	text-align: left;
+	margin-left: 400px;
+	text-decoration: underline;
+	color: white;
+}
+.concept-description {
+	text-align: left;
+	margin-left: 450px;
+	margin-right: 400px;
+	color: white;
+}
+	
